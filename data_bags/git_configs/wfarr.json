@@ -1,0 +1,20 @@
+{
+  "id": "wfarr",
+
+  "alias.lp": "log --patch",
+  "alias.dc": "diff --cached",
+  "alias.st": "status --short --branch",
+  "alias.co": "checkout",
+  "alias.ci": "commit",
+  "alias.di": "diff",
+  "alias.ack": "grep --break --heading --line-number",
+
+  "color.ui": "true",
+  "color.grep.filename": "bold green",
+  "color.grep.match": "black yellow",
+
+  "push.default": "simple",
+
+  "user.name": "Will Farrington",
+  "user.email": "wcfarrington@gmail.com"
+}
