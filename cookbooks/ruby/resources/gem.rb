@@ -9,7 +9,7 @@ attribute :gem,
 
 attribute :version,
   :kind_of => String,
-  :default => "~> 0"
+  :default => ">= 0"
 
 attribute :ruby,
   :kind_of => String,
