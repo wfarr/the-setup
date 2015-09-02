@@ -1,0 +1,7 @@
+name "git"
+maintainer "Will Farrington"
+maintainer_email "wcfarrington@gmail.com"
+license "MIT"
+description "Installs/Configures git"
+long_description "Installs/Configures git"
+version "0.1.0"
