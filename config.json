@@ -2,6 +2,7 @@
   "run_list": [
     "helpers",
     "git",
-    "thesetup"
+    "thesetup",
+    "ruby"
   ]
 }
