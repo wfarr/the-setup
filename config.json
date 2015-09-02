@@ -3,6 +3,7 @@
     "helpers",
     "git",
     "thesetup",
-    "ruby"
+    "ruby",
+    "people"
   ]
 }
