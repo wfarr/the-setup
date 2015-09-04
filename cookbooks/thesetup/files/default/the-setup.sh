@@ -18,4 +18,5 @@ while test $# -gt 0; do
 done
 
 cd $HOME/src/the-setup
+berks vendor
 /opt/chefdk/bin/chef-solo -c solo.rb $args

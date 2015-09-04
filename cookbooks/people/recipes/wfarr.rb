@@ -6,3 +6,9 @@ ruby_versions = %w(
 ruby_versions.each do |v|
   ruby_version v
 end
+
+homebrew_tap "railwaycat/emacsmacport"
+
+package "emacs-mac" do
+  options "--with-spacemacs-icon"
+end

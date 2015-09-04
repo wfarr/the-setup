@@ -1,0 +1,12 @@
+DEPENDENCIES
+  homebrew
+  osxdefaults
+    git: https://github.com/wfarr/chef-osxdefaults
+    revision: a701fba7bc358b3e66f0af15728687f2701ec6e5
+    ref: a701fba
+
+GRAPH
+  build-essential (2.2.3)
+  homebrew (1.13.0)
+    build-essential (>= 2.1.2)
+  osxdefaults (0.0.1)
