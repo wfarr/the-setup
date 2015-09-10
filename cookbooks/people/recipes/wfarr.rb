@@ -12,3 +12,11 @@ homebrew_tap "railwaycat/emacsmacport"
 package "emacs-mac" do
   options "--with-spacemacs-icon"
 end
+
+package "librdkafka"
+package "kafka"
+package "kafkacat"
+package "mysql"
+package "postgresql"
+package "redis"
+package "zookeeper"
