@@ -11,7 +11,7 @@ action :create do
 
   if !version_installed(new_resource.version)
     execute "install ruby #{new_resource.version}" do
-      command "ruby-build #{new_resource.version} #{install_path(new_resource.version)}"
+      command "#{ruby_build} #{new_resource.version} #{install_path(new_resource.version)}"
     end
 
     new_resource.updated_by_last_action(true)
@@ -33,6 +33,10 @@ action :delete do
   else
     new_resource.updated_by_last_action(false)
   end
+end
+
+def ruby_build
+  "#{node['thesetup']['user_home']}/.ruby-build/bin/ruby-build"
 end
 
 def install_path(version)
