@@ -1,0 +1,13 @@
+#!/bin/bash
+
+chjava() {
+  # remove any jdk paths currently on PATH
+  export PATH=$(echo "$PATH" | sed -e 's/:*[^:]*jdk[^:]*:*/:/g' | sed -e 's/^://g' | sed -e 's/:$//g')
+  export JAVA_HOME="$(/usr/libexec/java_home -v 1.${1} 2>/dev/null)"
+  export PATH="${JAVA_HOME}/bin":$PATH
+  echo $JAVA_HOME
+}
+
+current-java() {
+  echo "$(java -version 2>&1 | head -n1 | sed -e 's/^.*"\([0-9\._-]*\)"$/\1/g')"
+}

@@ -20,3 +20,8 @@ package "mysql"
 package "postgresql"
 package "redis"
 package "zookeeper"
+
+thesetup_env "java" do
+  priority 50
+  template "java.sh.erb"
+end
