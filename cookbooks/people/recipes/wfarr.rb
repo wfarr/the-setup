@@ -9,19 +9,19 @@ end
 
 homebrew_tap "railwaycat/emacsmacport"
 
-package "emacs-mac" do
-  options "--with-spacemacs-icon"
-end
+package "emacs-mac"# do
+#  options "--with-spacemacs-icon"
+#end
 
-package "librdkafka"
-package "kafka"
-package "kafkacat"
+# package "librdkafka"
+# package "kafka"
+# package "kafkacat"
 package "mysql"
 package "postgresql"
 package "redis"
-package "zookeeper"
+# package "zookeeper"
 
-thesetup_env "java" do
-  priority 50
-  template "java.sh.erb"
-end
+# thesetup_env "java" do
+#   priority 50
+#   template "java.sh.erb"
+# end
