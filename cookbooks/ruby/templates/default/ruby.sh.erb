@@ -1,0 +1,13 @@
+export PATH=$HOME/.ruby-build/bin:$PATH
+export PATH=$HOME/.chruby/bin:$PATH
+
+source $HOME/.chruby/share/chruby/chruby.sh
+source $HOME/.chruby/share/chruby/auto.sh
+
+function current-ruby {
+    if [ -z "${RUBY_ROOT}" ]; then
+      echo "system"
+    else
+      echo "${RUBY_ROOT##*/}"
+    fi
+}

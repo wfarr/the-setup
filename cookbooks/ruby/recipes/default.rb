@@ -11,3 +11,8 @@ git "#{node['thesetup']['user_home']}/.ruby-build" do
 end
 
 ruby_version node["ruby"]["default_version"]
+
+thesetup_env "ruby" do
+  priority 10
+  template "ruby.sh.erb"
+end
