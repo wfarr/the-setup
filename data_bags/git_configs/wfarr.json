@@ -16,5 +16,7 @@
   "push.default": "simple",
 
   "user.name": "Will Farrington",
-  "user.email": "wcfarrington@gmail.com"
+  "user.email": "wcfarrington@gmail.com",
+
+  "hub.protocol": "https"
 }
