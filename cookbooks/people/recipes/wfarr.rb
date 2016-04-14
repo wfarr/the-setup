@@ -1,6 +1,6 @@
 ruby_versions = %w(
-  2.1.2
-  2.1.7
+  2.1.9
+  2.3.0
 )
 
 ruby_versions.each do |v|
