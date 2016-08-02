@@ -18,5 +18,7 @@
   "user.name": "Will Farrington",
   "user.email": "wcfarrington@gmail.com",
 
-  "hub.protocol": "https"
+  "hub.protocol": "https",
+
+  "user.signingkey": "85213DA1160217BB"
 }
