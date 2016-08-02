@@ -20,5 +20,6 @@
 
   "hub.protocol": "https",
 
+  "commit.gpgsign": "true",
   "user.signingkey": "85213DA1160217BB"
 }
