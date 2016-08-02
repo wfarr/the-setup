@@ -7,7 +7,7 @@ end
 git "#{node['thesetup']['user_home']}/.ruby-build" do
   enable_checkout false
   repository "https://github.com/sstephenson/ruby-build"
-  revision   "326b038697deb6da4f8047b1c414b9c2347b4934"
+  revision   node["ruby"]["ruby-build"]["revision"]
 end
 
 ruby_version node["ruby"]["default_version"]
