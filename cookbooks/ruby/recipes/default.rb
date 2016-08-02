@@ -1,7 +1,7 @@
 git "#{node['thesetup']['user_home']}/.chruby" do
   enable_checkout false
   repository "https://github.com/postmodern/chruby"
-  revision   "0dac40188e306cdf62b23f46bb953a2717eebbb6"
+  revision   "v0.3.9"
 end
 
 git "#{node['thesetup']['user_home']}/.ruby-build" do
